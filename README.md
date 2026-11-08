@@ -91,6 +91,14 @@ So today there is no official place to get it. The game is still easy to find on
 already own (the original CD, or an old Rockstar or Steam purchase). This project ships no game files and does not host or
 link to downloads of the game.
 
+## Plateau-Mont-Royal map
+
+`tools/plateau` builds a GTA2 map of Montreal's Plateau-Mont-Royal: the street
+grid from avenue du Parc to rue Cartier and from Sherbrooke to Saint-Joseph,
+Parc La Fontaine, rows of plexes with their lanes, and Montreal's warm street
+lamps. It uses the tiles of your own copy of GTA2. See
+[tools/plateau/README.md](tools/plateau/README.md).
+
 ## Known issues
 
 The tank turret still uses the original low-resolution art, the 5-star FBI cars are blue instead of black,
@@ -130,7 +138,7 @@ dll/        gta2dx9.dll, the renderer
 vid/        gta2dx9_vid.dll, the video device shim
 src/        map, style, mesh, camera and D3D9 renderer code used by the DLL
 package/    release files: settings, registry files, player README, tuned ini files
-tools/      development tools
+tools/      development tools; tools/plateau builds the Plateau-Mont-Royal map
 docs/       research notes
 ```
 

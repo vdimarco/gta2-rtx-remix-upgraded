@@ -1,0 +1,8 @@
+# Made by the tools, not kept in the repository.
+out/
+out_osm/
+textures/
+palette.json
+tiles.png
+# The OpenStreetMap extract (~20 MB): osm_layout.fetch() downloads it.
+osm/plateau_osm.json
